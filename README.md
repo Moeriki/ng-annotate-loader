@@ -12,7 +12,7 @@ npm install --save-dev ng-annotate-loader
 
 ```js
 module: {
-  loaders: [
+  rules: [
     {
       test: /src.*\.js$/,
       use: [{ loader: 'ng-annotate-loader' }],
